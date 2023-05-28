@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Gizlilik Politikası"
+        android:id="@+id/gizlilk"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:title="Şartlar ve Koşullar"
+        android:id="@+id/sart"
+        android:orderInCategory="101"
+        />
+
+    <item
+        android:title="Bizi Değerlendirin"
+        android:id="@+id/degerlendirme"
+        android:orderInCategory="102"
+        />
+
+    <item
+        android:title="Paylaş"
+        android:id="@+id/paylas"
+        android:orderInCategory="103"
+        />
+
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#7A797A"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/exersice_11"/>
+
+        <Button
+            android:id="@+id/zaman"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_zaman"
+            android:text="01:00"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/basla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_basla"
+            android:text="BAŞLA"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
